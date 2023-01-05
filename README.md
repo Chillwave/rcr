@@ -3,7 +3,7 @@ Running Config Reader (RCR)
 This script reads a file containing network device running configuration data in a cisco "show running-config" format and parses the data to extract relevant information about names, interfaces, static routes, routing protocols, VPNs, access control policies, and QoS policies. The extracted information is then saved to a report file. It was designed for network technicians who may not have acess to a terminal or WSL(Windows Subsystem Linux).
 
 Prerequisites
-PowerShell must be installed on the system.
+PowerShell must be installed on the system. Make sure you run "set-executionpolicy -executionpolicy unrestricted" as an admin prior.
 Running the script
 To run the script, open a PowerShell window and navigate to the directory where the script is located. Then enter the following command:
 
